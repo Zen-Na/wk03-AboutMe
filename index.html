@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About Me Page</title>
+    <link rel=”stylesheet” href=”css/normalize.css”> 
+    <link rel=”stylesheet” href=”css/main.css”>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Proza+Libre:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>About Me</h1>
+    </header>
+    <section>
+      <ul class="flex-container">
+		    <li class="flex-item"><p>Photo of Me</p><img src="imageofme.png" title="That's me!" alt="Photo of me"></img></li>
+		    <li class="flex-item"><p>Who am I?</p>I am a Ngee Ann Polytechnic Student currently taking Information Technology as my course of choice. I am generally a very lazy person and always likes to rush things last minute. I am also quite a friendly person, so if you approach me I will be your friend!</li>
+		    <li class="flex-item"><p>My Hobbies</p>
+          <ol>
+            <li>Gaming</li>
+            <li>Listening to JPOP</li>
+            <li>Handicrafts</li>
+            <li>Digital Design</li>
+            <li>Drawing</li>
+            <li>Hanging Out</li>
+            <li>Collecting Diecast Cars</li>
+          </ol>
+        </li>	
+	    </ul>
+    </section>
+    <section>
+      <h1>Favourite Video</h1>
+      <div><iframe width="560" height="315" src="https://www.youtube.com/embed/F5GjEwI8wEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </section>
+    <section>
+      <h1>Share About Yourself</h1>
+      <div align=center>
+        <form action="placeholder.php">
+          <br>
+          <label for="name" class=label1>Enter Your Name:</label><br><br>
+          <input type="text" id="name" name="name" placeholder="Joe Biden"><br><br>
+
+          <label for="color">Select Your Favourite Color:</label><br><br>
+          <input type="color" id="color" name="color"><br><br>
+
+          <label>Select Your Gender:</label><br><br>
+          <input type="radio" id="male" name="gender>
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender>
+          <label for="female">Female</label><br><br>
+
+          <label for="desc">Tell Me About Yourself</label><br><br>
+          <textarea id="desc" name="desc" rows=5 cols=50 placeholder="A short paragraph will do!"></textarea><br><br>
+
+          <input type="submit">
+          <input type="reset"><br>
+
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
